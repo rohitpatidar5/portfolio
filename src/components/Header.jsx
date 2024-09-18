@@ -6,8 +6,8 @@ function Header() {
 
     
   return (
-    <header>
-        <div className='flex justify-between py-5 px-14 '>
+    <header className='flex justify-between py-5 px-14 '>
+        
             <div className=' text-2xl text-emerald-500 font-bold '>
                 <h1><DiamondIcon/> <span className=' '>DimondCreate</span></h1>
 
@@ -33,8 +33,10 @@ function Header() {
                 <button className='border-none p-2 rounded-md  text-white bg-[#ad19af]'>Sign In</button>
             </div>
            </div>
+           
 
-        </div>
+    
+        
     </header>
   )
 }
